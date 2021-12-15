@@ -1,0 +1,7 @@
+I"�<p>Sie finden diesen Beitrag in Ihrem <code class="language-plaintext highlighter-rouge">_posts</code>-Ordner. Verändern und bauen Sie die Seite erneut um Ihre Änderungen zu sehen. Es gibt viele Wege, die Seite zu bauen, aber der am häufigsten verwendete Weg ist, <code class="language-plaintext highlighter-rouge">jekyll serve --watch</code> zu starten, welches einen Webserver startet und Ihre Seite regeneriert, sobald eine Änderung vorgenommen wurde.</p>
+
+<p>Um neue Beiträge hinzuzufügen, legen Sie einfach eine neue Datei im <code class="language-plaintext highlighter-rouge">_posts</code>-Ordner an, die die Dateinamenskonvention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> einhält und die nötige YAML-Frontmatter enthält. Schauen Sie sich die Quelldatei für diesen Beitrag an, um eine Idee zu bekommen, wie es funktioniert.</p>
+
+<p>Gehen Sie auf die <a href="http://jekyllrb.com">Jekyll-Website</a> für mehr Informationen, wie Jekyll obtimal eingesetzt werden kann. Bugreports gehen an <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub-Repository</a>. Wenn Sie Fragen haben, können Sie diese im <a href="https://github.com/jekyll/jekyll-help">dafür vorgesehenen Jekyll-Hilferepository</a> stellen.</p>
+
+:ET
