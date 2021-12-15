@@ -140,6 +140,16 @@ _select_data:
     button: Default Button
     button-inverted: Inverted Button
     button-special: Special Button
+
+gems:
+- jekyll-language-plugin
+
+language_data: data.lang.%%
+language_includes_dir: _i18n
+
+
+
+
     
   
     

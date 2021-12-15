@@ -1,11 +1,15 @@
 ---
-layout: default
+layout: page
 seo:
   title: Candles & Co. | Soy candles in Melbourne
   description:
   social_image:
   keywords:
   hide-from-google: true
+languages:
+- en
+- es
+subset: index
 notification-bar: false
 bar:
   background: bg-accent
@@ -13,120 +17,17 @@ bar:
   text-align: center
 menu:
   button-style: false
-banner:
-  banner_image: /images/candle-web5.jpeg
-  image-position: Top
-  banner-tall: tall-100
-  small-devices-tall: tall-60-sm
-  column-size: col-7_sm-12
-  text-align: left
-  main-text: white-text
-  sub-text: white-text
-  highlight: bg-grey
-  button: button
-first-section:
-  - column-size: col-6_sm-12
-    background_image: /images/candle-web4.jpeg
-    hover-title: Spring
-    title: Inspired in flower fragances.
-    description: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, maxime,
-      distinctio illum dolore architecto.
-  - column-size: col-6_sm-12
-    background_image: /images/candle-web2.webp
-    hover-title: White
-    title: A minimalist option for you.
-    description: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, maxime,
-      distinctio illum dolore architecto.
-  - column-size: col-6_sm-12
-    background_image: /images/candle-web6.jpeg
-    hover-title: Love
-    title: Do what you love with this candles.
-    description: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, maxime,
-      distinctio illum dolore architecto.
-  - column-size: col-6_sm-12
-    background_image: /images/candle-web1.jpg
-    hover-title: Yellow
-    title: A pop up of color in your house.
-    description: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, maxime,
-      distinctio illum dolore architecto.
-first-section-button:
-  button: button-inverted
-banner-2:
-  banner_image: /images/candle-web8.jpeg
-  banner-tall: tall-100
-  small-devices-tall: tall-50-md
-  column-size: col-6_sm-12
-  text-align: center
-  main-text: white-text
-  sub-text: white-text
-  block-position: grid-center
-  button: button
-best-sellers-heading: true
-best-sellers:
-  - background_image: /images/candle-web3.jpeg
-    image-position: bg-pos-c
-    title: Bloom Candle
-    description: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti
-      aspernatur quod minima ullam ab, in nihil temporibus velit, quae iure
-      omnis dignissimos fuga, laudantium a quo alias qui ipsam!
-    product-url: /collections
-    button: button-inverted
-  - background_image: /images/candle-web10.jpeg
-    image-position: bg-pos-c
-    title: Peace Candle
-    description: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti
-      aspernatur quod minima ullam ab, in nihil temporibus velit, quae iure
-      omnis dignissimos fuga, laudantium a quo alias qui ipsam!
-    button: button-inverted
-    product-url: /collections
-  - background_image: /images/candle-web11.jpeg
-    image-position: bg-pos-c
-    title: Special Candle
-    description: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti
-      aspernatur quod minima ullam ab, in nihil temporibus velit, quae iure
-      omnis dignissimos fuga, laudantium a quo alias qui ipsam!
-    button: button-inverted
-    product-url: /collections
-special-banner: true
-special-offer:
-  background: bg-accent
-  main-text: white-text
-  sub-text: white-text
-why-us:
-  background_image: /images/candle-web7.jpeg
-  background: bg-warm
-  button: button-inverted
-testimonial-section: true
-testimonial:
-  button: button-inverted
-faq: true
-banner-faq_image: /images/candle-web9.jpeg
-sign-up-banner: true
-sign-up:
-  background: bg-light-featured
-  main-text: dark-text
-  sub-text: dark-text
-  button: button-special
 ---
 
-<header class="bg-image {{page.banner.image-position }} grid {{page.banner.banner-tall }} {{page.banner.small-devices-tall }}" style="background-image:url('{{ page.banner.banner_image }}')">
+<header class="bg-image grid tall-100" style="background-image:url('/images/candle-web5.jpeg')">
 
     {% include header-nav-index.html %}
 
-      <div class="{{page.banner.column-size }} {{page.banner.text-align }} padded">
+      <div class="col-12 center padded">
         <h3>
-          <span class="big-bold {{page.banner.main-text }} editable"> Candles & Co. </span> <br />
-          <span class="medium-bold {{page.banner.sub-text }} editable"> Light up your space </span> <br />
+          {% t 'lead' %}
         </h3>
-        <h1 class="padded-b-1"> 
-          <span class="{% if page.banner.highlight == true %} highlight {% endif %} {{page.banner.highlight }} text-15 editable">Handmade soy candles in Melbourne.</span></h1>
+        <h1> {% t 'title' %} </h1>
         <a href="/#order" class="{{page.banner.button }} editable"> Shop collections </a>
       </div>
 </header>
